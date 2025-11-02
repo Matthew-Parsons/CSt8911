@@ -1,4 +1,4 @@
-# Step 1: Storage account, overview tab screenshot, that essentially displays, name of storage account, region, and redundancy setting ie Locally redundant storage 
+![alt text](lab2-step5.png)# Step 1: Storage account, overview tab screenshot, that essentially displays, name of storage account, region, and redundancy setting ie Locally redundant storage 
 I wasn't able to the region eastUS, so i used eastUS2 instead
 ![alt text](lab2-step1.png)
 
@@ -26,3 +26,4 @@ I wasn't able to the region eastUS, so i used eastUS2 instead
 
 
 # Step 5: Screenshot of your resource group service and no resources underneath the resource group
+![alt text](lab2-step5.png)
