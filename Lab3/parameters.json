@@ -1,0 +1,117 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "eastus2"
+        },
+        "networkInterfaceName": {
+            "value": "lab3-8911862"
+        },
+        "subnetId": {
+            "value": "/subscriptions/8a667ada-0a9e-458e-9674-f4fabbe9aed3/resourceGroups/8911-lab3/providers/Microsoft.Network/virtualNetworks/vnet-eastus2/subnets/snet-eastus2-1"
+        },
+        "publicIpAddressName": {
+            "value": "lab3-8911-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Static"
+        },
+        "publicIpAddressSku": {
+            "value": "Standard"
+        },
+        "pipDeleteOption": {
+            "value": "Detach"
+        },
+        "virtualMachineName": {
+            "value": "lab3-8911"
+        },
+        "virtualMachineComputerName": {
+            "value": "lab3-8911"
+        },
+        "virtualMachineRG": {
+            "value": "8911-lab3"
+        },
+        "osDiskType": {
+            "value": "StandardSSD_LRS"
+        },
+        "osDiskDeleteOption": {
+            "value": "Delete"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_B1ls"
+        },
+        "nicDeleteOption": {
+            "value": "Detach"
+        },
+        "hibernationEnabled": {
+            "value": false
+        },
+        "adminUsername": {
+            "value": "Matthew"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "enablePeriodicAssessment": {
+            "value": "ImageDefault"
+        },
+        "patchMode": {
+            "value": "AutomaticByPlatform"
+        },
+        "rebootSetting": {
+            "value": "IfRequired"
+        },
+        "vnetLocation": {
+            "value": "eastus2"
+        },
+        "vnetExtendedLocation": {
+            "value": {}
+        },
+        "vnetVirtualNetworkName": {
+            "value": "vnet-eastus2"
+        },
+        "vnetResourceGroupName": {
+            "value": "8911-lab3"
+        },
+        "vnetDeploymentName": {
+            "value": "network-interface-associated-virtual-network-20251109144217"
+        },
+        "vnetNatGatewaysWithNewPublicIpAddress": {
+            "value": []
+        },
+        "vnetNatGatewaysWithoutNewPublicIpAddress": {
+            "value": []
+        },
+        "vnetNatGatewayPublicIpAddressesNewNames": {
+            "value": []
+        },
+        "vnetNetworkSecurityGroupsNew": {
+            "value": []
+        },
+        "vnetProperties": {
+            "value": {
+                "subnets": [
+                    {
+                        "name": "snet-eastus2-1",
+                        "properties": {
+                            "addressPrefixes": [
+                                "172.16.0.0/24"
+                            ]
+                        }
+                    }
+                ],
+                "addressSpace": {
+                    "addressPrefixes": [
+                        "172.16.0.0/16"
+                    ]
+                }
+            }
+        },
+        "vnetTagsByResource": {
+            "value": {
+                "Owner": "Matthew"
+            }
+        }
+    }
+}
