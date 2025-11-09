@@ -13,3 +13,6 @@ East US isn't available to azure for students so I used East US 2
 
 ## Screenshot 5: VM overview continued. Elements in Screenshot: security type, disk type, availability options
 ![alt text](lab3-screenshot5.png)
+
+## Screenshot 6: successful deployment and deletion of resources
+![alt text](lab3-screenshot6.png)
